@@ -1,0 +1,20 @@
+[project]
+name = "tokenbug"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.11.0",
+    "datasets>=4.3.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "peft>=0.17.1",
+    "pyarrow>=22.0.0",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "sentence-transformers>=5.1.2",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+]

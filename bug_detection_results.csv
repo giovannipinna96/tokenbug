@@ -1,0 +1,21 @@
+Bug Pattern,Method,Score Reduction,Anomaly Reduction
+off_by_one,semantic_energy,0.1510618353213966,1
+off_by_one,conformal_prediction,-24.933231061436118,0
+off_by_one,attention_anomaly,0.0011278131783386547,1
+off_by_one,token_masking,0.011262339540554778,7
+missing_base_case,semantic_energy,0.3002875723489902,-1
+missing_base_case,conformal_prediction,-121.86280487804879,-5
+missing_base_case,attention_anomaly,0.005045957093995357,-2
+missing_base_case,token_masking,0.0835201636454993,-9
+incorrect_operator,semantic_energy,0.37172020463003963,1
+incorrect_operator,conformal_prediction,-3.1180836707152366,3
+incorrect_operator,attention_anomaly,-0.0010589726080924011,1
+incorrect_operator,token_masking,0.03020460649466916,5
+type_mismatch,semantic_energy,0.060172102881259626,0
+type_mismatch,conformal_prediction,-49.65573770491801,0
+type_mismatch,attention_anomaly,0.0027258130949253667,0
+type_mismatch,token_masking,-0.02111920788261723,-1
+loop_condition,semantic_energy,0.13731477693523608,2
+loop_condition,conformal_prediction,16.066069906223333,3
+loop_condition,attention_anomaly,0.0016956725199048783,3
+loop_condition,token_masking,0.03491970335002276,10
